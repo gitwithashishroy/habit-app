@@ -1,0 +1,51 @@
+ .topnav{
+    display: flex;
+    background-color: rgb(193, 205, 245);
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    width:97%;
+    justify-content: space-between;
+    color: black ;
+ }
+
+.navLeft{
+   display: flex;
+   width: 50%;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.navLeftElem {
+    list-style-type: none;
+    font-weight: 400;
+    text-decoration: none ;
+    font-size: 20px;
+}
+
+.decorationLogo{
+   text-decoration: none ;
+   border-radius: 5px ;
+   font-size: 20px ;
+   font-weight: 600;
+}
+
+.decoration{
+   text-decoration: none ;
+}
+
+.navRightElem{
+   color: green;
+   font-weight: 600;
+}
+
+button{
+   padding : 10px ; 
+   border-radius: 5px ;
+   border: none ; 
+   cursor: pointer;
+   font-weight: 700;
+   font-size: 15px;
+  background-color: coral ;
+  color: white ; 
+}
